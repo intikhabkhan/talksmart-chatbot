@@ -1,0 +1,16 @@
+
+{
+  "name": "talksmart-chatbot",
+  "version": "1.0.0",
+  "description": "Real estate chatbot using OpenAI GPT-3.5-turbo",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^4.0.0"
+  }
+}
